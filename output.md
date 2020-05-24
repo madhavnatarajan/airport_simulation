@@ -9,8 +9,8 @@
 
  https://github.com/madhavnatarajan/airport_simulation. This code is checked into this repository.
  <pre>
- Usage : ./runway -f <filename> -lqs <landing q size> -tqs <takeoff q size> -lht < landing holding time> -tht <takeoff holding time>
- 
+ Usage : ./runway -f &lt;filename> -lqs &lt;landing q size> -tqs &lt;takeoff q size> -lht &lt; landing holding time> -tht &lt;takeoff holding time>
+
  ./runway -lht 5 -tht 5 -lqs 4 -tqs 3
 argc is 9
 Program Name Is: ./runway
