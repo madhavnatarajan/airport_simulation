@@ -268,12 +268,12 @@ no of planes yet to land 0
 no of planes yet to takeoff 0
 </pre>
 Documentation :
-![handletimetick](handletimetick.jpg)
+![handletimetick](handletimetick.png)
 handle time tick event
 
-![handleTR](handleTR.jpg)
+![handleTR](handleTR.png)
 handle takeoff request event
 
-![handleLR](handleLR.jpg)
+![handleLR](handleLR.png)
 handle landing request event
 
