@@ -5,8 +5,12 @@
  The program reads input from a file.The runway exhibits three states viz. IDLE,LANDING and TAKEOFF. There are two events viz. takeoff request and landing request. There is also a timetick event which moves the clock forward.
  On any type of request received, the planes are added to the respective queues of size (lqs,tqs)landing or takeoff. The runway is occupied for certain time which is controlled by the holdingtime parameters(lht,tht).
  Time counter Tc signifies the time when the next event can be handled by the runway.
+ 
+
  https://github.com/madhavnatarajan/airport_simulation. This code is checked into this repository.
  <pre>
+ Usage : ./runway -f <filename> -lqs <landing q size> -tqs <takeoff q size> -lht < landing holding time> -tht <takeoff holding time>
+ 
  ./runway -lht 5 -tht 5 -lqs 4 -tqs 3
 argc is 9
 Program Name Is: ./runway
